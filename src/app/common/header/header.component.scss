@@ -4,6 +4,9 @@ header section starts
 -----------------------*/
 .header_section img {
     width: 150px;
+    @media (max-width: 767px) {
+        width: 85px;
+    }
 }
 .header_login {
     padding: 5px 12px;
