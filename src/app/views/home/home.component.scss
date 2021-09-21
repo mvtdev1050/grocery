@@ -1,0 +1,201 @@
+.slider_sec {
+    background: #ececec url(https://codezeel.com/opencart/OPC01/OPC010013/catalog/view/theme/Organic/image/codezeel/header-bkg.jpg) repeat scroll center top;
+    height: 700px;
+    position: relative;
+    padding-top: 10%;
+    text-align: center;
+}
+.slider_sec h2 {
+    line-height: 50px;
+    font-weight: bold;
+}
+.one-time img {
+    width: 300px;
+    display: inline-block;
+}
+
+/*----------------------
+how it works section starts
+-----------------------*/
+.hw {
+    padding: 50px 0px;
+/*    background:linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(../images/collage.jpg) repeat;
+    -webkit-animation: slide 20s linear infinite;
+    background-size: auto 100%;
+    animation: slide 20s linear infinite;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/*@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}*/
+.features-wraper {
+    width: 80%;
+    margin: 0 auto;
+}
+.colored_box {
+    background: #71b870;
+    color: #fff;
+    padding: 30px 15px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.colored_box h3 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.colored_box p {
+    margin-bottom: 0px;
+    line-height: 1.7;
+    font-size: 16px;
+}
+.hw_img {
+    height: 300px;
+    width: 100%;
+}
+.hw_img img{
+  height: 100%;
+  width: 100%;
+}
+.features-wraper > .row {
+    margin-bottom: 30px;
+}
+/*.hw {
+    background-image: url(../images/hw.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(0 0 0 / 55%);
+    background-blend-mode: overlay;
+    overflow: hidden;
+}*/
+/*.features-wraper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.features-item {
+    text-align: center;
+    background-image: url(../images/features-item-bg.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 2.14rem;
+    box-sizing: border-box;
+    border-radius: 6px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    transform: translateY(0px);
+    width: 27.5%;
+    padding: 2.8rem 0;
+}
+.features-item:hover {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+.features-item img {
+    height: 100px;
+}
+.features-item p {
+    color: #3E2B1A;
+    font-size: 1.71rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.25em;
+    display: inline-block;
+    margin-top: 15px;
+}*/
+/*.hw .wrap_heading h3{
+  color: #fff !important;
+}*/
+
+
+/*----------------------
+App download section starts
+-----------------------*/
+.app-desc-sec p {
+    transition: .5s;
+    line-height: 1.7;
+    color: #666;
+    font-size: 17px;
+}
+.apps {
+    background: #f4fff4;
+    padding: 50px 0px;
+}
+.app-icon li {
+    margin-right: 20px;
+}
+.app-mobile-sec img {
+    width: 350px;
+}
+
+/*----------------------
+become a driver section starts
+-----------------------*/
+.wrap_desc p {
+    transition: .5s;
+    line-height: 1.7;
+    color: #fff;
+    font-size: 17px;
+}
+.driver {
+    padding: 50px 0px;
+    background-image: url(https://healthnewshub.org/wp-content/uploads/2020/03/Newssupermarket.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0 0 0 / 69%);
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+}
+.driver .wrap_heading h3{
+  color: #fff;
+}
+/*----------------------
+postcode section starts
+-----------------------*/
+.postcode {
+    // background: url("assets/images/veg.jpg");
+    background-image: url('/assets/images/veg.jpg');
+    height: 370px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrap_form{
+  position: relative;
+}
+.wrap_form input {
+    position: relative;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid #71b870;
+    overflow: hidden;
+    padding: 0px 100px 0px 20px;
+}
+.wrap_form button {
+    background: #71b870;
+    color: #fff;
+    width: 100px;
+    height: 60px;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    border-radius: 30px;
+    font-size: 25px;
+}
+
+.one-time h2 {
+    font-size: 40px;
+    color: #2a2a2a;
+}

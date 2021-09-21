@@ -1,0 +1,49 @@
+
+/*----------------------
+header section starts
+-----------------------*/
+.header_section img {
+    width: 150px;
+}
+.header_login {
+    padding: 5px 12px;
+}
+.cell_phn {
+    padding: 0px 20px;
+}
+.cell_phn svg{
+    transform: rotate(90deg);
+}
+.header_section {
+    /* background: #ececec url(https://codezeel.com/opencart/OPC01/OPC010013/catalog/view/theme/Organic/image/codezeel/header-bkg.jpg) no-repeat scroll center top; */
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+.user_nam {
+    margin-right: 20px;
+    img {
+        height: 50px;
+        width: 50px !important;
+        border-radius: 100%;
+        margin-right: 7px;
+        object-fit: cover;
+    }
+    // .nam {
+    //     width: 100px;
+    //     border: 1px solid;
+    // }
+}
+.cart{
+    position: relative;
+    svg{
+        font-size: 18px;
+        color: #71b870;
+        position: relative;
+    }
+    .cust_bd{
+        position: absolute;
+        top: -10px;
+        right: -8px;
+    }
+}

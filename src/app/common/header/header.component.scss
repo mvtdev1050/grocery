@@ -1,0 +1,35 @@
+
+/*----------------------
+header section starts
+-----------------------*/
+.header_section img {
+    width: 150px;
+}
+.header_login {
+    padding: 5px 12px;
+}
+/*.header_search{
+  position: relative;
+}
+.header_search input {
+    position: relative;
+    border-radius: 20px;
+}
+.header_search svg {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: grey;
+}*/
+.cell_phn {
+    padding: 0px 20px;
+}
+.cell_phn svg{
+    transform: rotate(90deg);
+}
+.header_section {
+    /* background: #ececec url(https://codezeel.com/opencart/OPC01/OPC010013/catalog/view/theme/Organic/image/codezeel/header-bkg.jpg) no-repeat scroll center top; */
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}

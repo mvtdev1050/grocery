@@ -1,0 +1,472 @@
+/* -------------------------------- 
+Primary style
+-------------------------------- */
+@import "compass/css3";
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:focus{
+    outline: unset;
+}
+body {
+  font-size: 100%;
+  font-family: 'poppins', sans-serif;
+  background-color: #fff;
+  position: relative;
+}
+html, body, .panel {
+    width: 100%;
+    height: 100%;
+}
+a {
+  color: #007dfd;
+  text-decoration: none;
+}
+a:hover{
+    text-decoration: none;    
+}
+a:focus{
+    outline: unset ;
+}
+ol, ul, dl, a{
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+p, a{
+  font-size: 13px;
+}
+.theme-btn {
+    background: #71b870;
+    color: #fff;
+    padding: 8px 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/*----------------------
+header section starts
+-----------------------*/
+.header_section img {
+    width: 150px;
+}
+.header_login {
+    padding: 5px 12px;
+}
+/*.header_search{
+  position: relative;
+}
+.header_search input {
+    position: relative;
+    border-radius: 20px;
+}
+.header_search svg {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: grey;
+}*/
+.cell_phn {
+    padding: 0px 20px;
+}
+.cell_phn svg{
+    transform: rotate(90deg);
+}
+.header_section {
+    /* background: #ececec url(https://codezeel.com/opencart/OPC01/OPC010013/catalog/view/theme/Organic/image/codezeel/header-bkg.jpg) no-repeat scroll center top; */
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+.slider_sec {
+    background: #ececec url(https://codezeel.com/opencart/OPC01/OPC010013/catalog/view/theme/Organic/image/codezeel/header-bkg.jpg) repeat scroll center top;
+    height: 700px;
+    position: relative;
+    padding-top: 10%;
+    text-align: center;
+}
+.slider_sec h2 {
+    line-height: 50px;
+    font-weight: bold;
+}
+.one-time img {
+    width: 300px;
+    display: inline-block;
+}
+
+/*----------------------
+how it works section starts
+-----------------------*/
+.hw {
+    padding: 50px 0px;
+/*    background:linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(../images/collage.jpg) repeat;
+    -webkit-animation: slide 20s linear infinite;
+    background-size: auto 100%;
+    animation: slide 20s linear infinite;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/*@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}*/
+.features-wraper {
+    width: 80%;
+    margin: 0 auto;
+}
+.colored_box {
+    background: #71b870;
+    color: #fff;
+    padding: 30px 15px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.colored_box h3 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.colored_box p {
+    margin-bottom: 0px;
+    line-height: 1.7;
+    font-size: 16px;
+}
+.hw_img {
+    height: 300px;
+    width: 100%;
+}
+.hw_img img{
+  height: 100%;
+  width: 100%;
+}
+.features-wraper > .row {
+    margin-bottom: 30px;
+}
+/*.hw {
+    background-image: url(../images/hw.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(0 0 0 / 55%);
+    background-blend-mode: overlay;
+    overflow: hidden;
+}*/
+/*.features-wraper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.features-item {
+    text-align: center;
+    background-image: url(../images/features-item-bg.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 2.14rem;
+    box-sizing: border-box;
+    border-radius: 6px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    transform: translateY(0px);
+    width: 27.5%;
+    padding: 2.8rem 0;
+}
+.features-item:hover {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+.features-item img {
+    height: 100px;
+}
+.features-item p {
+    color: #3E2B1A;
+    font-size: 1.71rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.25em;
+    display: inline-block;
+    margin-top: 15px;
+}*/
+/*.hw .wrap_heading h3{
+  color: #fff !important;
+}*/
+
+
+/*----------------------
+App download section starts
+-----------------------*/
+.app-desc-sec p {
+    transition: .5s;
+    line-height: 1.7;
+    color: #666;
+    font-size: 17px;
+}
+.apps {
+    background: #f4fff4;
+    padding: 50px 0px;
+}
+.app-icon li {
+    margin-right: 20px;
+}
+.app-mobile-sec img {
+    width: 350px;
+}
+
+/*----------------------
+become a driver section starts
+-----------------------*/
+.wrap_desc p {
+    transition: .5s;
+    line-height: 1.7;
+    color: #fff;
+    font-size: 17px;
+}
+.driver {
+    padding: 50px 0px;
+    background-image: url(https://healthnewshub.org/wp-content/uploads/2020/03/Newssupermarket.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0 0 0 / 69%);
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+}
+.driver .wrap_heading h3{
+  color: #fff;
+}
+/*----------------------
+postcode section starts
+-----------------------*/
+.postcode {
+    background-image: url(../images/veg.jpg);
+    height: 370px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wrap_heading h3 {
+    font-size: 55px;
+    font-weight: bold;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #151515;
+    margin-top: 15px;
+}
+.wrap_heading p {
+    color: #7fd02c;
+    font-size: 24px;
+    letter-spacing: .05em;
+    text-transform: none;
+    /*font-family: "Kalam", cursive;*/
+    margin-bottom: unset;
+    /*font-style: italic;*/
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.wrap_form{
+  position: relative;
+}
+.wrap_form input {
+    position: relative;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid #71b870;
+    overflow: hidden;
+    padding: 0px 100px 0px 20px;
+}
+.wrap_form button {
+    background: #71b870;
+    color: #fff;
+    width: 100px;
+    height: 60px;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    border-radius: 30px;
+    font-size: 25px;
+}
+/*----------------------
+map section starts
+-----------------------*/
+.show_cities {
+    height: 500px;
+}
+/*----------------------
+footer section starts
+-----------------------*/
+.footer {
+    background: #2b2b2b;
+}
+.footer-section {
+    background: #323232;
+    overflow: hidden;
+}
+.footer-top{
+    padding: 40px 0px;
+    color: #fff;  
+}
+.footer-top .app_dl img {
+    width: 100px;
+}
+.footer-top .pay_method img {
+    width: 40px;
+}
+.ft-main-heding {
+    color: #ffffff;
+    margin-bottom: 20px !important;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.footer-colm li {
+    margin-bottom: 10px;
+    /*padding-left: 20px;*/
+    line-height: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.footer-colm li:first-child{
+    border-bottom: unset;
+}
+.footer-colm li:before {
+    content: "›";
+    font-family: "Font Awesome 5 Free";
+    text-align: center;
+    position: absolute;
+    left: 10px;
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin-top: -1px;
+}
+.footer-colm li:first-child::before{
+    display: none;
+}
+.footer-section li a {
+    color: #b5b4b4;
+    transition: all 0.5s ease-in-out;
+    font-size: 14px;
+}
+.footer-top .colm-2 li {
+    margin: 10px 0px;
+}
+.bottom-footer {
+    background: #1d1d1d;
+    padding: 10px;
+}
+
+.common-col li a {
+    color: #ddd;
+    font-size: 14px;
+}
+.common-col li a:hover{
+  color: #a7cd53;
+}
+.list-group.horizon_list {
+    flex-direction: row;
+}
+.logo_img img {
+    width: 80px;
+}
+.compny_about {
+    font-size: 14px;
+    color: #ddd;
+    padding: 15px 10px;
+}
+.socio_list {
+    flex-direction: row;
+    padding: 10px;
+}
+.socio_list li{
+    background: #101010;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    margin-right: 10px;
+    line-height: 45px;
+    transition: 0.5s all ease-in-out;
+    cursor: pointer;
+}
+.socio_list li:hover{
+    background: #ff7900;    
+}
+.socio_list li:hover a{
+    color: #fff;
+}
+.socio_list li a {
+    font-size: 20px;
+}
+.common-col.colm-1 {
+    border-right: 1px solid #656565;
+}
+.common-col.colm-2 li img {
+    width: 100%;
+}
+.footer_ico{
+    width: 8%;
+    float: left;
+    margin-right: 5px;
+}
+.footer_cont{
+    width: 80%;
+    float: left;
+    color: #b5b4af;
+}
+.common-contact {
+    width: 100%;
+    float: left;
+    margin: 10px 0px;
+}
+.newsletter input {
+    display: inline-block;
+    position: relative;
+    padding: 5px 30px 5px 10px ;
+}
+.newsletter button {
+    color: #fff;
+    background: #71b870;
+    position: absolute;
+    right: 0;
+}
+.last-colm .news_letter, .last-colm .payment_method, .last-colm .download_app{
+    width: 100%;
+    float: left;
+}
+.last-colm h3 {
+    margin-bottom: 0px !important;
+    margin-top: 20px;
+}
+/* -------------------------------- 
+bottom footer
+-------------------------------- */
+
+.bottom_list li a {
+    color: #d6d6d6;
+    transition: all 0.2s ease-in-out;
+}
+.bottom_list li a:hover{
+    color: #ff7900;
+}
+.list-group.horizon_list {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.horizon_list li {
+    margin-left: 25px;
+}
+.bottom-footer a {
+    color: #ddd;
+    text-decoration: none;
+    cursor: default;
+}

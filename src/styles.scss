@@ -1,0 +1,83 @@
+/* You can add global styles to this file, and also import other style files */
+/* -------------------------------- 
+Primary style
+-------------------------------- */
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:focus{
+    outline: unset;
+}
+body {
+  font-size: 100%;
+  font-family: 'poppins', sans-serif;
+  background-color: #fff;
+  position: relative;
+}
+html, body, .panel {
+    width: 100%;
+    height: 100%;
+}
+a {
+  color: #007dfd;
+  text-decoration: none;
+}
+a:hover{
+    text-decoration: none;    
+}
+a:focus{
+    outline: unset ;
+}
+ol, ul, dl, a{
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+p, a{
+  font-size: 13px;
+}
+.theme-btn {
+    background: #71b870;
+    color: #fff;
+    padding: 8px 25px;
+    border-radius: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.cust_padd{
+	padding-top: 10%;
+}
+.single_pg{
+	background: #ececec url(https://codezeel.com/opencart/OPC01/OPC010013/catalog/view/theme/Organic/image/codezeel/header-bkg.jpg) repeat scroll center top;
+    // height: 700px;
+    position: relative;
+    padding-top: 10%;
+    text-align: center;
+}
+.wrap_heading h3 {
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #151515;
+    margin-top: 15px;
+}
+.wrap_heading p {
+    color: #7fd02c;
+    font-size: 24px;
+    letter-spacing: .05em;
+    text-transform: none;
+    /*font-family: "Kalam", cursive;*/
+    margin-bottom: unset;
+    /*font-style: italic;*/
+    font-weight: 700;
+    text-transform: capitalize;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

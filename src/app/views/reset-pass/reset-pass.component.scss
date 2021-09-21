@@ -1,0 +1,31 @@
+.log_form {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ddd;
+    text-align: left;
+}
+.wrap_socio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.socio-btn {
+    margin: 6px 0px;
+    border-radius: 3px;
+    color: #fff;
+    padding: 7px 12px;
+}
+.green_btn{
+	background: #71b870;
+}
+.blue_btn{
+	background: #3359a2;
+}
+.red_btn{
+	background: #cf493b;
+}
+
+.log_btn button {
+    width: 100%;
+}
